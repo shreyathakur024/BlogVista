@@ -4,8 +4,9 @@ import Contact from './pages/Contact'
 import About from './pages/About'
 import Home from './pages/Home'
 import Articles from './pages/Articles'
-import Navbar from './pages/Navbar'
+import Navbar from './Components/Navbar'
 import './App.css'
+import Footer from './Components/Footer'
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/contact" element={<Contact/>} />
         <Route path="/articles" element={<Articles/>} />
       </Routes>
+      <Footer/>
     </Router>
     </div>
     </>
