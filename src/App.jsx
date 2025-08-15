@@ -11,6 +11,7 @@ import './App.css'
 const App = () => {
   return (
     <>
+    <div className="overflow-x-hidden">
     <Router>
       <Navbar/>
       <Routes>
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/articles" element={<Articles/>} />
       </Routes>
     </Router>
+    </div>
     </>
     
   )
