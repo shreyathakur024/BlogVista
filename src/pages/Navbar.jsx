@@ -18,10 +18,10 @@ const Navbar = () => {
         <Link className="text-orange-400 hover:bg-yellow-300 hover:text-black px-3 py-1 rounded" to={'/articles'}>Articles</Link>
         {/* <i className="fa-solid fa-magnifying-glass text-white cursor-pointer"></i> */}
         <button onClick={()=>setSearch(!search)}>
-          <FaSearch className="search text-amber-50 text-2xl hover:bg-black hover:text-white w-10 h-8" />
+          <FaSearch className="search text-amber-50 text-2xl hover:text-black " />
           </button>
           {search && (
-            <input type="text" placeholder="Search..." className="abso;ute top-8 right-0 border rounded px-2 py-1 bg-blue-150 text-cyan-50"/>
+            <input type="text" placeholder="Search..." className=" top-8 right-0 border rounded px-2 py-1 bg-blue-150 text-cyan-50"/>
           )}
         </div>
     </div>
